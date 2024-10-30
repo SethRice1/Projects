@@ -1,0 +1,63 @@
+# TaskMaster
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Example Interaction](#example-interaction)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+**TaskMaster** is a comprehensive personal task management application developed in C++. Designed to assist users in organizing, prioritizing, and tracking their daily tasks and long-term projects, TaskMaster leverages object-oriented programming principles to ensure scalability, maintainability, and efficiency. Whether you're managing work assignments, personal errands, or urgent tasks, TaskMaster provides an intuitive and reliable tool to enhance your productivity and streamline your workflow.
+
+## Features
+
+- **Task Creation and Management**
+  - Create, edit, delete, and view tasks with detailed attributes including title, description, category, priority, due date, and status.
+  
+- **Categorization and Prioritization**
+  - Organize tasks into predefined or custom categories (e.g., Work, Personal, Urgent) and assign priority levels (Low, Medium, High) to focus on critical tasks.
+  
+- **Deadline and Reminder System**
+  - Set due dates for tasks and receive reminders to ensure timely completion.
+  
+- **Progress Tracking**
+  - Monitor the status of tasks (Pending, In Progress, Completed) to assess productivity and progress.
+  
+- **Search and Filter**
+  - Easily locate tasks based on various criteria such as category, priority, or status.
+  
+- **Data Persistence**
+  - Save and load tasks to and from external files, ensuring data retention across sessions.
+  
+- **User Interaction**
+  - An intuitive command-line interface guides users through task management operations with clear prompts and feedback.
+
+## Technologies Used
+
+- **Programming Language:** C++
+- **Libraries:** 
+  - Standard Template Library (STL) for data structures (`std::vector`, `std::map`)
+  - File I/O operations (`<fstream>`, `<sstream>`)
+- **Development Tools:**
+  - GCC/G++ Compiler
+  - Text Editor or IDE (e.g., Visual Studio Code, CLion)
+
+## Installation
+
+### Prerequisites
+
+- **C++ Compiler:** Ensure you have a C++ compiler installed (e.g., `g++`).
+
+### Steps
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/TaskMaster.git
